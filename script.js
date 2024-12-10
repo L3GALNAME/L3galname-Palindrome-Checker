@@ -12,14 +12,14 @@ function text_check() {
     let conversion = textArea.value.toLowerCase();
     conversion = conversion.replace(/[^a-zA-Z0-9]/g, "");
 
-    //Check if Palindrome
+    // Check if Palindrome
     result.style.display = "block";
     result.innerHTML = textArea.value;
     if (check_palindrome(conversion)) { result.innerHTML += " is a palindrome" }
     else { result.innerHTML += " is not a palindrome" }
 
-    //Reset boxes    
-    checkBtn.innerHTML = conversion;
+    // Reset boxes    
+    //checkBtn.innerHTML = conversion;
     textArea.value = "";
   }
 }

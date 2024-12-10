@@ -1,0 +1,74 @@
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+*/
+
+.nunito-sans-font {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+body {
+  background-color: #0b093b;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  margin-top: calc(50vh - 2.8em);
+  font-size: 2.5rem;
+}
+
+div {
+  margin-left: 15vw;
+  padding: 2em 0;
+  width: 70vw;
+  background: rgba(120, 120, 120, 0.65);
+  border: none;
+  border-top: 2px solid rgba(40, 40, 40, 0.65);
+  border-left: 2px solid rgba(40, 40, 40, 0.65);
+  border-right: 2px solid rgba(40, 40, 40, 0.65);
+  border-radius: 38px;
+  /*backdrop-filter: blur(20px);*/
+}
+
+input {
+  font-size: 0.8rem;
+  padding: 0.8em;
+  margin-right: 2em;
+  border-radius: 12px;
+  border: none;
+}
+
+button {
+  font-size: 0.8rem;
+  padding: 0.8em 1.2em;
+  color: #f2f2f2;
+  background: #0077ff;
+  border: none;
+  border-radius: 12px;
+  transition: background 150ms, color, 150ms;
+}
+
+button:hover {
+  background: #199fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:active {
+  background: #26b7ff;
+  color: #fff;
+}
+
+span {
+  margin-top: 1em;
+  font-size: 1rem;
+}
